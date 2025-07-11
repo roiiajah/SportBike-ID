@@ -1,16 +1,91 @@
-# sportbike_id
+<p align="center">
+  <img src="assets/images/logo_launcher.png" alt="SportBike ID Logo" width="150"/>
+</p>
 
-A new Flutter project.
+<h1 align="center">SportBike ID</h1>
 
-## Getting Started
+<p align="center">
+  Aplikasi mobile katalog motor sport yang dibangun dengan Flutter dan terintegrasi dengan Firebase.
+</p>
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter" alt="Flutter Version">
+  <img src="https://img.shields.io/badge/Firebase-Auth-orange?logo=firebase" alt="Firebase Auth">
+  <img src="https://img.shields.io/badge/Platform-Android-green?logo=android" alt="Platform">
+  <img src="https://img.shields.io/badge/License-MIT-purple" alt="License">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Tampilan Aplikasi (Screenshots)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Berikut adalah beberapa tampilan dari aplikasi SportBike ID.
+
+| Halaman Login | Halaman Utama | Halaman Detail |
+| :-----------: | :-----------: | :--------------: |
+| ![Login Page](path/to/your/login_screenshot.png) | ![Home Page](path/to/your/home_screenshot.png) | ![Detail Page](path/to/your/detail_screenshot.png) |
+> **Catatan:** Ganti `path/to/your/screenshot.png` dengan link ke screenshot aplikasi Anda.
+
+---
+
+## ✨ Fitur (Features)
+
+-   🔐 **Autentikasi Pengguna:** Sistem login dan registrasi menggunakan Firebase Authentication (Email & Password).
+-   🚪 **Sesi Login:** Pengguna tetap login hingga mereka keluar secara manual.
+-   🏍️ **Katalog Produk:** Menampilkan daftar motor sport dalam tampilan grid yang rapi.
+-   📄 **Halaman Detail:** Halaman detail untuk setiap motor, menampilkan gambar, harga, dan spesifikasi lengkap.
+-   🎨 **Ikon Aplikasi Kustom:** Ikon aplikasi yang unik saat diinstal di perangkat.
+-   🚀 **Navigasi yang Mulus:** Alur navigasi yang jelas dari login, ke halaman utama, lalu ke detail produk.
+
+---
+
+## 🛠️ Teknologi yang Digunakan (Tech Stack)
+
+-   **Framework:** Flutter
+-   **Backend & Autentikasi:** Firebase Authentication
+-   **Package Utama:**
+    -   `firebase_core`
+    -   `firebase_auth`
+    -   `flutter_launcher_icons` (dev dependency)
+
+---
+
+## 🚀 Memulai (Getting Started)
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di mesin lokal Anda.
+
+### Prasyarat (Prerequisites)
+
+-   Pastikan Anda sudah menginstal [Flutter SDK](https://flutter.dev/docs/get-started/install) di komputer Anda.
+-   Sebuah IDE seperti [VS Code](https://code.visualstudio.com/) atau [Android Studio](https://developer.android.com/studio).
+
+### Instalasi (Installation)
+
+1.  **Clone repositori ini:**
+    ```sh
+    git clone [https://github.com/](https://github.com/)[NAMA_USER_ANDA]/sportbike_id.git
+    ```
+
+2.  **Pindah ke direktori proyek:**
+    ```sh
+    cd sportbike_id
+    ```
+
+3.  **Setup Proyek Firebase Anda:**
+    -   Buka [Firebase Console](https://console.firebase.google.com/) dan buat proyek baru.
+    -   Aktifkan **Authentication** dengan metode **Email/Password**.
+    -   Ikuti petunjuk untuk menambahkan aplikasi Android ke proyek Firebase Anda. Anda perlu **mendapatkan file `google-services.json` Anda sendiri**.
+    -   Letakkan file `google-services.json` yang baru Anda unduh di dalam direktori `android/app/`.
+    -   Jalankan `flutterfire configure` untuk menghasilkan file `firebase_options.dart`.
+
+4.  **Install semua dependency:**
+    ```sh
+    flutter pub get
+    ```
+
+5.  **Jalankan aplikasi:**
+    ```sh
+    flutter run
+    ```
+
+---
