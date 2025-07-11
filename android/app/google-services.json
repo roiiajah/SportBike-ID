@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892062208639",
+    "project_id": "sportbike-id",
+    "storage_bucket": "sportbike-id.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892062208639:android:20ab13cac2d4a46fb9254a",
+        "android_client_info": {
+          "package_name": "com.example.sportbike_id"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIOODdY7xbNpGajAzD0ZElcZK2VUV1HHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
